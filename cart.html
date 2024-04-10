@@ -6,13 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="cart.css">
-	<script src="./js/bicicletas.js"></script>
-  <script src="./js/cartService.js" defer></script>
-	<script src="./js/cart.js" defer></script>
-	<title>Carrito</title>
+  <title>Carrito</title>
 </head>
 <body>
-  <header>
+	<header>
 		<nav>
 			<a href="./index.html"><img src="./img/logo.png" alt="Logo" id="logo"></a>
 			<div>
@@ -26,13 +23,16 @@
 		<p id="carrito-vacio">Ups! El carrito está vacío, <a href="./index.html">elige algunos productos</a></p>
 		<section id="cart-container">
 		</section>
-  <section id="totales">
-    <p>Total unidades: <span id="cantidad">0</span></p>
-    <p>Total precio: $<span id="precio">0</span></p>
-    <button disabled>Comprar</button>
-    <button id="reiniciar">Reiniciar</button>
-  </section>
-</main>
+		<section id="totales">
+			<p>Total unidades: <span id="cantidad">0</span></p>
+			<p>Total precio: $<span id="precio">0</span></p>
+			<button disabled>Comprar</button>
+			<button id="reiniciar">Reiniciar</button>
+		</section>
+	</main>
 
+	<script src="./js/bicicletas.js"></script>
+	<script src="./js/cartService.js" defer></script>
+	<script src="./js/cart.js" defer></script>
 </body>
 </html>

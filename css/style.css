@@ -54,6 +54,8 @@ header nav{
 #logo{
   height: 40px;
   margin: 20px;
+  width: 100px;
+
 }
 
 header nav div{
@@ -63,7 +65,9 @@ header nav div{
 }
 
 header nav img{
+  width: 200px;
   height: 25px;
+  width: 20px;
 }
 
 #cuenta-carrito{
